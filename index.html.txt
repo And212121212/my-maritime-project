@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Шлях до капітанського містка</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Професія: Судноводій</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Про професію</a></li>
+                <li><a href="#skills">Навички</a></li>
+                <li><a href="#contact">Зворотний зв'язок</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>Чому саме море?</h2>
+            <p>Судноводій — це відповідальність за екіпаж, вантаж та безпеку судна. Це робота для тих, хто любить дисципліну та технології.</p>
+            <img src="https://images.unsplash.com/photo-1505239103221-3e4e7344d12a?q=80&w=500" alt="Ship Bridge" style="width:100%; border-radius: 8px;">
+        </section>
+
+        <section id="skills">
+            <h2>Що має знати сучасний штурман:</h2>
+            <ul>
+                <li>Навігація та лоція</li>
+                <li>Робота з РЛС та САРП</li>
+                <li>Міжнародне морське право</li>
+                <li>Англійська мова (Maritime English)</li>
+            </ul>
+        </section>
+
+        <section id="interactive">
+            <h2>Інтерактивна зона</h2>
+            <p id="welcome-text">Натисніть кнопку, щоб отримати морське вітання!</p>
+            <button id="action-btn">Отримати сигнал</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Проєкт "Майбутній капітан"</p>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
